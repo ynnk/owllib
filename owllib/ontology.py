@@ -4,7 +4,7 @@ import urllib.request as url
 from owllib.entities import *
 
 
-class Ontology:
+class Ontology(object):
     """
     A class representing an Ontology
     """
