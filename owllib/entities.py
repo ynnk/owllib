@@ -2,7 +2,7 @@ import rdflib
 from rdflib import RDF, RDFS, OWL, Literal
 
 
-class Entity:
+class Entity(object):
     """
     base class for all owllib entities, e.g. classes, individuals, object properties
     """
